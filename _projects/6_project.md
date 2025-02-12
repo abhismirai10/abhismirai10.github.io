@@ -1,80 +1,46 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Pan and Tilt Object Tracking System
+description: A robotic pan-and-tilt mechanism for real-time object tracking using YOLO and Dynamixel servos.
+img: assets/img/pan_tilt_tracking.jpg
+importance: 6
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+This project involves designing and implementing a **pan-and-tilt mechanism** for **real-time object tracking**, leveraging **Dynamixel servos** for smooth motion control and **YOLO-based object detection** to identify and track targets dynamically.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## **Key Features & Technologies**
+- **Mechanical Design**:
+  - Fully designed and simulated in **Fusion 360**.
+  - **Lightweight and modular** design for adaptability.
+- **Servo Control**:
+  - Utilized **Dynamixel servos** for precise pan-and-tilt motion.
+  - Implemented **PID control** for smooth tracking movements.
+- **Object Detection & Tracking**:
+  - Integrated **YOLOv10** for **real-time object detection**.
+  - Optimized **bounding box tracking** with Kalman Filters for stability.
+  - Implemented **multi-object tracking** for dynamic environments.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Showcase
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <video controls class="img-fluid rounded z-depth-1">
+            <source src="/assets/video/pan_tilt.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="caption">Reinforcement learning progress over iterations.</p>
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Future Work
+- Improve **object tracking speed** with model optimizations.
+- Implement **gesture-based tracking control**.
+- Integrate **edge AI** for onboard processing without external computing.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Explore More
+- [Project Repository](https://github.com/abhismirai10/Pan-and-Tilt-Mechanism)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This project demonstrates advanced **robotic vision and motion control**, making it applicable to **surveillance, automation, and human-robot interaction**.

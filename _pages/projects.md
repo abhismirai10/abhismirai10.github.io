@@ -1,11 +1,10 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Explore my innovative projects in robotics, AI, and automation, blending cutting-edge technology with real-world applications.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 

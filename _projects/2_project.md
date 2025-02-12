@@ -1,81 +1,49 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: ROS Noetic Tutorials
+description: A hands-on learning experience, progressing from basics to complex ROS Noetic implementations.
+img: assets/img/ros_noetic.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+The **ROS Noetic Tutorials** project is designed as a **learning-by-doing** guide, helping users **progress from basic concepts to advanced robotic implementations**. This structured tutorial series provides a step-by-step approach to mastering **Robot Operating System (ROS) Noetic**, focusing on practical exercises and real-world applications.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## **Key Features & Topics Covered**
+- **ROS Basics**:
+  - Understanding **ROS nodes, topics, and services**.
+  - Writing simple **publisher-subscriber** scripts.
+- **Intermediate Level**:
+  - Working with **URDF** for robot modeling.
+  - Implementing **TF transformations** for coordinate frames.
+- **Advanced Implementations**:
+  - Motion planning with **MoveIt!**.
+  - Using **Gazebo** for simulation.
+  - Custom **robot navigation and mapping**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Showcase
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ros_basics.jpg" title="ROS Basics - Understanding Nodes and Topics" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ros_advanced.jpg" title="Advanced ROS - Motion Planning with MoveIt!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The ROS Noetic Tutorial series helps learners progress from foundational topics to advanced robotic applications.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Future Work
+- Expand tutorials to cover **ROS2** for next-generation robotics development.
+- Introduce **real-world robotic integration** examples.
+- Provide **interactive simulations** to reinforce learning.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Explore More
+- [Project Repository](https://github.com/abhismirai10/ros_noetic_tutorials)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+This project serves as a **comprehensive guide** for mastering **ROS Noetic**, making it easier for learners to transition from fundamental concepts to building fully operational robotic applications.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

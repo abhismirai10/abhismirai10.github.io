@@ -1,34 +1,36 @@
 ---
 layout: about
-title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+title: About
+subtitle: Graduate Student | Florida Tech
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a recent Master’s graduate in Mechanical Engineering, specializing in **Robotics and Automation**, at Florida Institute of Technology. Advised by [Dr. Ryan White](https://www.fit.edu/faculty-profiles/w/white-ryan/), My master's research focuses on bridging the gap between classical robotics control and modern learning-based techniques, leveraging **imitation learning and reinforcement learning** for robotic manipulation. Specifically, I explored **Action Chunking with Transformers (ACT), Diffusion Policies and Proximal Policy Optimization (PPO)**, achieving high success rates in dynamic manipulation tasks and conducting a comparative analysis between traditional control methods and AI-driven approaches to enhance robotic adaptability and efficiency. Please visit [Research](/research/) for more details.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Recently, I have worked on impactful robotics projects:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At [KSCIA](https://www.kscia.com/), Kennedy Space Center Visitor Complex, I worked as a Robotics Project Developer Intern, developing interactive robotics projects for educational purposes. I designed and programmed a functional model of **NASA’s Perseverance Rover**, to educate visitors about space robotics.
+
+At [Jaycon Systems](https://www.jaycon.com/), I contributed to the development of an **Augmented Reality (AR) glasses**, applying my expertise in computer vision, deep learning, and hardware integration to enhance real-time object recognition and tracking.
+
+My passion lies in pushing the boundaries of robotics through innovative solutions, combining **Mechanical Design, AI, and Robotics** to create impactful technologies.
+
+If you have any questions or would like to collaborate, feel free to reach out via [email](mailto:abhismirai10@gmail.com)! 🚀

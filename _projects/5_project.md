@@ -1,80 +1,35 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: ARM Cortex-M4 Microcontroller Development
+description: Exploring low-level embedded programming and real-time applications using the ARM Cortex-M4.
+img: assets/img/cortex.jpg
+importance: 5
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
+This project focuses on **embedded systems development** using the **ARM Cortex-M4 microcontroller**, enabling efficient real-time processing for **robotics, automation, and low-power applications**. By leveraging **bare-metal programming** and **RTOS-based development**, this project serves as a foundation for building **high-performance embedded solutions**.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## **Key Features & Implementations**
+- **Microcontroller Fundamentals**:
+  - Understanding **Cortex-M4 architecture and registers**.
+  - Setting up **development environment with GCC & ARM toolchain**.
+- **Peripheral Programming**:
+  - Configuring **GPIO, UART, SPI, and I2C** for sensor interfacing.
+  - Implementing **PWM for motor control**.
+- **RTOS Integration**:
+  - Using **FreeRTOS** for multi-threaded execution.
+  - Task scheduling and **real-time data processing**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Future Work
+- Optimize **power management** for energy-efficient applications.
+- Expand the project to include **wireless communication (BLE, Wi-Fi, LoRa)**.
+- Implement **machine learning on edge devices** for intelligent embedded systems.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Explore More
+- [Project Repository](https://github.com/abhismirai10/ARM_Cortex_M4_MicroController)
+- [Project Video Playlist](https://youtube.com/playlist?list=PLhZ60hN4FYqqE40cZQK00izK8ZxeqJxJp&si=R6mJtNQMfwXJtI2C)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This project serves as a **practical introduction to embedded systems**, providing essential skills for **developing real-time applications on ARM microcontrollers**.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

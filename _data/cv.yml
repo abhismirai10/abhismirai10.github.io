@@ -1,0 +1,122 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Abhishek Chothani
+    - name: Contact No
+      value: "+1 434-569-9343"
+    - name: Email
+      value: "<a href='mailto:abhismirai10@gmail.com'>abhismirai10@gmail.com</a>"
+    - name: Portfolio
+      value: "<a href='https://abhismirai10.github.io/' target='_blank'>Website</a>"
+    - name: LinkedIn
+      value: "<a href='https://www.linkedin.com/in/abhishek-chothani10/' target='_blank'>Profile</a>"
+    - name: GitHub
+      value: "<a href='https://github.com/abhismirai10' target='_blank'>Repositories</a>"
+    - name: YouTube
+      value: "<a href='https://www.youtube.com/@abhismirai10' target='_blank'>Channel</a>"
+    - name: Languages
+      value: "English, Gujarati, Hindi"
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Science in Mechanical Engineering
+      institution: Florida Institute of Technology, Florida, USA
+      year: 2023 - 2024
+      description:
+        - Specialization in Robotics and Automation
+        - Research on reinforcement learning and imitation learning for robotic manipulation
+    - title: Bachelor of Engineering in Mechanical Engineering
+      institution: Gujarat Technological University, India
+      year: 2017 - 2021
+      description:
+        - Focused on robotics, automation, design and manufacturing.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: NEural TransmissionS (NETS) Lab, Florida
+      year: Jan'24 - Dec'24
+      description:
+        - Developed end-to-end robotic learning models using Python, PyTorch, and Isaac Sim
+        - Investigated Action Chunking with Transformers (ACT), Diffusion Policies, and PPO
+        - Built robotic pick-and-place pipelines integrating classical and AI-driven techniques
+
+    - title: Robotics Project Developer Intern
+      institution: Kennedy Space Center Visitor Complex, Florida, USA
+      year: June'24 – Jan'24
+      description:
+        - Designed and built a functional NASA Perseverance Rover model
+        - Developed motion control using ROS, PID algorithms, and embedded systems
+
+    - title: Mechanical Engineer Intern
+      institution: Jaycon Systems, Florida, USA
+      year: Sep'24 – Dec'24
+      description:
+        - Developed AR-based deep learning solutions with YOLO and TensorFlow
+        - Contributed to robotic arm automation projects using UR10 and ROS2
+
+    - title: Robotics Engineer
+      institution: BandG Robotics, India
+      year: Jan'21 – Dec'22
+      description:
+        - Designed robotic manipulators using ROS, Python, and ANSYS
+        - Developed CNC automation solutions for high-precision manufacturing
+
+- title: Certifications
+  type: list
+  contents:
+    - Deep Learning Specialization | Coursera
+    - Autodesk CAD/CAM/CAE Specialization | Coursera
+    - HASS CNC Milling and CNC Lathe Operator | HASS Automation
+
+- title: Skills
+  type: list
+  contents:
+    - "Programming: Python, C/C++, MATLAB, PyTorch, ROS, ROS2, OpenCV, PX4 autopilot"
+    - "Robotics: Robotic Manipulation, Navigation, Computer Vision, Imitation Learning, Reinforcement Learning"
+    - "Devices: Raspberry Pi, Jetson, Arduino, STM32, ARM Cortex-M4"
+    - "Simulation: Isaac Sim, Drake, Gazebo"
+    - "CAD/CAM: Fusion 360, SolidWorks, Ansys, Mastercam"
+    - "OS: Linux Ubuntu"
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: "<a href='https://github.com/abhismirai10/IsaacLab_Abhi' target='_blank'>Bipedal Training of Spot using IsaacLab & PPO</a>"
+      year: 2025
+      description: Training Boston Dynamics' Spot to balance on two legs using reinforcement learning.
+
+    - title: "<a href='https://github.com/abhismirai10/ros_noetic_tutorials' target='_blank'>ROS Noetic Tutorials</a>"
+      year: 2024
+      description: Step-by-step hands-on tutorials for learning ROS Noetic
+
+    - title: "<a href='https://github.com/abhismirai10/Pan-and-Tilt-Mechanism' target='_blank'>Pan and Tilt Object Tracking</a>"
+      year: 2024
+      description: A robotic tracking system using Dynamixel servos and YOLO
+
+    - title: "<a href='https://github.com/abhismirai10/Gesture_Control_Drone' target='_blank'>Gesture-Controlled Drone</a>"
+      year: 2023
+      description: Designed a drone controlled via hand gestures using MediaPipe and PX4 autopilot
+
+    - title: "<a href='https://github.com/abhismirai10/ARM_Cortex_M4_MicroController' target='_blank'>ARM Cortex-M4 Development</a>"
+      year: 2023
+      description: Embedded systems programming on ARM Cortex-M4 with FreeRTOS
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Robotics & AI
+      items:
+        - Reinforcement learning and imitation learning for robotic control
+        - Optimization of robot dynamics and trajectory planning
+    - title: Control and Embedded Systems
+      items:
+        - Real-time operating systems (RTOS) for robotics control
+        - Hardware-software co-design for robotic and industrial automation
+    - title: Design & Manufacturing
+      items:
+        - Mechanical design and CAD modeling for robotic systems and automation
+        - CNC programming, machining processes, and additive manufacturing techniques

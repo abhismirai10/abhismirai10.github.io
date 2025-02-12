@@ -17,6 +17,16 @@ My research focuses on advancing robotics by transitioning from **classical cont
 > - AI-driven learning methods like **Action Chunking with Transformers (ACT) and Proximal Policy Optimization (PPO)** for adaptability.  
 > - Scalable hardware setups for real-world integration.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video controls class="img-fluid rounded z-depth-1">
+            <source src="/assets/video/research.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p class="caption">Autonomus Picking and Placing Task.</p>
+    </div>
+</div>
+
 ---
 
 ## Classical Robotics: Pick-and-Place Pipeline

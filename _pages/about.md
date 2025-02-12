@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: About
-subtitle: Graduate Student | Florida Tech
+subtitle: Graduate Student | Florida Institute of Technology
 
 profile:
   align: right
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a recent Master’s graduate in Mechanical Engineering, specializing in **Robotics and Automation**, at Florida Institute of Technology. Advised by [Dr. Ryan White](https://www.fit.edu/faculty-profiles/w/white-ryan/), My master's research focuses on bridging the gap between classical robotics control and modern learning-based techniques, leveraging **imitation learning and reinforcement learning** for robotic manipulation. Specifically, I explored **Action Chunking with Transformers (ACT), Diffusion Policies and Proximal Policy Optimization (PPO)**, achieving high success rates in dynamic manipulation tasks and conducting a comparative analysis between traditional control methods and AI-driven approaches to enhance robotic adaptability and efficiency. Please visit [Research](/research/) for more details.
+I am a recent Master’s graduate in Mechanical Engineering, specializing in **Robotics and Automation**, from Florida Institute of Technology. Advised by [Dr. Ryan White](https://www.fit.edu/faculty-profiles/w/white-ryan/), My master's research focuses on bridging the gap between classical robotics control and modern learning-based techniques, leveraging **imitation learning and reinforcement learning** for robotic manipulation. Specifically, I explored **Action Chunking with Transformers (ACT), Diffusion Policies and Proximal Policy Optimization (PPO)**, achieving high success rates in dynamic manipulation tasks and conducting a comparative analysis between traditional control methods and AI-driven approaches to enhance robotic adaptability and efficiency. Please visit [Research](/research/) for more details.
 
 Recently, I have worked on impactful robotics projects:
 

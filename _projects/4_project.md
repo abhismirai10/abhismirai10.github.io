@@ -41,7 +41,4 @@ category: work
 - Implement **object detection and tracking** for more precise interaction.
 - Integrate **self-supervised learning** to enhance autonomous capabilities.
 
-## Explore More
-- [Project Repository](https://github.com/abhismirai10/Gesture_Control_Drone)
-
 Mirai3_0 is a step towards a more **intuitive, AI-driven approach to drone navigation**, breaking barriers in human-robot interaction.

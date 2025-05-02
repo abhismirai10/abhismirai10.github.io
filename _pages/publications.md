@@ -109,5 +109,5 @@ The research evaluated different learning methods across various robotic tasks. 
 ---
 
 ## References
-For additional technical details and algorithms, refer to my **[Master’s Thesis](/assets/pdf/Chothani-Thesis-2024.pdf)** or
+For additional technical details and algorithms, refer to my **[Master’s Thesis](https://repository.fit.edu/cgi/preview.cgi?article=2546&context=etd)** or
 [More Results Demos](https://drive.google.com/drive/u/0/folders/1LftoRg34HieBMN42KgWSghgstuSexj5M)

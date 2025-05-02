@@ -39,6 +39,6 @@ The model successfully engaged **students and visitors**, offering an immersive 
 </div>
 
 ## Explore More
-- [More About NASA’s Perseverance Rover](https://mars.nasa.gov/mars2020/)
+- [Demo](https://www.linkedin.com/posts/abhishek-chothani10_stem-robotics-mechanicalengineering-activity-7279524648160034816-FC5s?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZjC78B__ODSu506T7X0WOHeO2ZfrVxpXw)
 
 This project demonstrates my ability to **combine robotics, AI, and engineering principles** to create interactive and functional robotic systems.
